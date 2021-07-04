@@ -1,33 +1,33 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 *,
 *::after,
-*::before{
-  box-sizing: inherit;
+*::before {
+    box-sizing: inherit;
 }
-html{
+html {
     box-sizing: border-box;
     font-size: 62.5%;
-     scroll-behavior:smooth;
+    scroll-behavior: smooth;
 }
-body{
-    font-family: 'Montserrat', sans-serif;
+body {
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
-   
+    background: #000;
 }
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
 ul,
-li{
+li {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-.container{
+.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
