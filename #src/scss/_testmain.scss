@@ -1,0 +1,71 @@
+.test-main {
+    position: absolute;
+    width: 100%;
+    // max-width: 1920px;
+    margin: -185px auto;
+    height: 4234px;
+    background: #F8F9FF;
+    border-radius: 100px 100px 0px 0px;
+    z-index: 0;
+
+    .test-title {
+        font-family: 'Montserrat'sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 129.69%;
+        text-align: center;
+        color: #313131;
+        padding-top: 250px;
+    }
+
+    .card {
+        max-width: 970px;
+        margin: 0 auto;
+        top: 832px;
+        margin-top: 30px;
+        background: #ffffff;
+        box-shadow: 0px 9px 30px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+        padding: 46px 70px;
+
+        &__header {
+            width: 100%;
+            display: flex;
+            align-items: center;
+
+            &--number {
+                width: 71px;
+                height: 71px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                font-family: 'Roboto'sans-serif;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 25px;
+                color: #3A4146;
+                background-image: url(../img/test/Star1.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                flex: 0 0 71px;
+            }
+
+            &--text {
+                font-family: 'Montserrat' sans-serif;
+                width: auto;
+                line-height: 150%;
+                font-weight: bold;
+                font-size: 22px;
+                 color: #3A4146;
+                 margin-left: 26px;
+            }
+        }
+
+    }
+
+
+
+
+}
